@@ -101,7 +101,7 @@ class Restaurant:
                 print("<<< Password should contain atleast 1 capital,1 small,1 special char, & atleast 8-16 char long >>>")
                 password = input("Enter your password : ")
                 
-                res1 = re.findall("^.*(?=.{8,16})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$",password)
+                res1 = re.findall("^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$",password)
                 if res1:
                     print("Strong password")
                 else:
