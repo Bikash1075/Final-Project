@@ -248,7 +248,7 @@ class Restaurant:
 
 def main():
     try:
-        obj = Restaurant("The Viper's Kitchen")
+        obj = Restaurant("Angels' Lane")
         print("\n||||/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\||||\n")
         print(f">>>>>>>>>>>>  Welcome To {obj.rest_name}  <<<<<<<<<<<<<\n")
         print("               ** The Real Taste is Here **               \n")
@@ -319,3 +319,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
