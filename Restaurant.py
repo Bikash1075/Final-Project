@@ -148,10 +148,6 @@ class Restaurant:
                             print("2) Check Order History")
                             print("3) Update Your Profile Details")
                             print("4) Exit\n")
-                            print("Press 1 To Place New order\n")
-                            print("Press 2 To See Previously Ordered Items\n")
-                            print("Press 3 for Profile Updation\n")
-                            print("Press 4 To Take Exit from App\n")
                             User_choice = input("Please Input your Choice : ")
                             if User_choice == "1":
                                 self.place_order()
